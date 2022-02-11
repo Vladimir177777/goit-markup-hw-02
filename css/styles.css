@@ -23,6 +23,11 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
 .address {
   font-style: normal;
 }
