@@ -26,6 +26,9 @@ body {
 .current {
   color: var(--accent-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .address {
@@ -83,7 +86,7 @@ body {
   line-height: 1.9;
   cursor: pointer;
   color: #ffffff;
-  text-transform: uppercase;
+
   background-color: var(--accent-color);
 }
 
@@ -179,7 +182,6 @@ body {
   line-height: 1.6;
   cursor: pointer;
   color: var(--primary-text-color);
-  text-transform: uppercase;
   background-color: #f5f4fa;
 }
 
