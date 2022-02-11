@@ -68,7 +68,8 @@ body {
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
-  text-align: Center;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .modal-button {
@@ -81,6 +82,11 @@ body {
   background-color: var(--accent-color);
 }
 
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #188ce8;
+}
+
 /* ========== Hero end ========== */
 
 /* =========== Features start ==========*/
@@ -89,6 +95,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--primary-text-color);
+  text-transform: uppercase;
 }
 
 .text-features {
@@ -114,7 +121,7 @@ body {
 /* ========== Team start========== */
 
 .team {
-  background-color: #e5e5e5;
+  background-color: #f5f4fa;
 }
 
 .name-team {
